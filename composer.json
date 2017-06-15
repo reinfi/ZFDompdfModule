@@ -6,8 +6,7 @@
     "license": "MIT",
     "authors": [
         {
-        "name": "Reinfi",
-        "email": "rkolbe@gmail.com"
+            "name": "Reinfi"
         }
     ],
     "require": {
