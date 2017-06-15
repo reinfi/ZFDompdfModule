@@ -1,0 +1,24 @@
+{
+    "name": "reinfi/zf-dompdf-module",
+    "type": "library",
+    "description": "A Zend Framework 2 module for incorporating DOMPDF support.",
+    "keywords": ["pdf","dompdf", "zf2"],
+    "license": "MIT",
+    "authors": [
+        {
+        "name": "Reinfi",
+        "email": "rkolbe@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "zendframework/zend-mvc": "^2.5",
+        "zendframework/zend-view": "^2.5",
+        "dompdf/dompdf": "^0.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZFDomPdf\\": "src/"
+        }
+    }
+}
